@@ -24,7 +24,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="policy_network_base.py" />
     <Compile Include="policy_network.py" />
+    <Compile Include="ShogiBaesPolicy.py" />
     <Compile Include="ShogiChainRulePolicy.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
